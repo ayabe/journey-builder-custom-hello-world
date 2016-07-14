@@ -95,7 +95,7 @@ app.post('/fireEvent/:type', function( req, res ) {
             },
             body: JSON.stringify({
                 ContactKey: data.alternativeEmail,
-                EventDefinitionKey: triggerIdFromAppExtensionInAppCenter,
+                EventDefinitionKey: jb-hello-world-trigger-kayabe,
                 Data: data
             })
         };
